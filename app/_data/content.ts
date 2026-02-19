@@ -3,7 +3,7 @@ export const content = {
   title: "Model & Creator",
   tagline: "Welcome.. find my spicy links here. Will you send me a message babe?",
   ctas: [
-    { label: "Onlyfans", href: "https://onlyfans.com/dutcharmygirl", brand: "f2f" },
+    { label: "Onlyfans", href: "https://onlyfans.com/dutcharmygirl", brand: "onlyfans" },
     { label: "F2F", href: "https://f2f.com/nathalya", brand: "f2f" },
     { label: "Telegram", href: "https://t.me/+kuEIJW2OlHVlNzhk", brand: "telegram" },
   ],
