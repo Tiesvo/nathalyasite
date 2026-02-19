@@ -78,16 +78,21 @@ export default function Page() {
           transition={{ duration: 0.6, delay: 0.3 }}
           className="mt-6 flex flex-col items-center gap-3 w-full max-w-md"
         >
-          {/* F2F */}
           <CTAButton href={content.ctas[0].href} label={content.ctas[0].label}>
             <BrandBadge brand={content.ctas[0].brand as any} />
             <span className="font-medium">{content.ctas[0].label}</span>
           </CTAButton>
 
-          {/* Telegram */}
-          <CTAButton href={content.ctas[1].href} label={content.ctas[1].label}>
+          {/* F2F */}
+          <CTAButton href={content.ctas[1].href} label={content.ctas[0].label}>
             <BrandBadge brand={content.ctas[1].brand as any} />
             <span className="font-medium">{content.ctas[1].label}</span>
+          </CTAButton>
+
+          {/* Telegram */}
+          <CTAButton href={content.ctas[2].href} label={content.ctas[1].label}>
+            <BrandBadge brand={content.ctas[2].brand as any} />
+            <span className="font-medium">{content.ctas[2].label}</span>
           </CTAButton>
         </motion.div>
 
