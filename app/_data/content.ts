@@ -5,7 +5,6 @@ export const content = {
   ctas: [
     { label: "Onlyfans", href: "https://onlyfans.com/dutcharmygirl", brand: "onlyfans" },
     { label: "F2F", href: "https://f2f.com/nathalya", brand: "f2f" },
-    { label: "Telegram", href: "https://t.me/+kuEIJW2OlHVlNzhk", brand: "telegram" },
   ],
   gallery: Array.from({ length: 19 }).map((_, i) =>
     `/gallery/${String(i + 1).padStart(3, "0")}.jpg`
