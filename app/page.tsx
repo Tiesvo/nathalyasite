@@ -89,13 +89,6 @@ export default function Page() {
             <span className="font-medium">{content.ctas[1].label}</span>
           </CTAButton>
 
-          {/* Telegram */}
-          <CTAButton href={content.ctas[2].href} label={content.ctas[1].label}>
-            <BrandBadge brand={content.ctas[2].brand as any} />
-            <span className="font-medium">{content.ctas[2].label}</span>
-          </CTAButton>
-        </motion.div>
-
         {/* Moving strip (directly under CTAs) */}
         <div className="mt-12 w-full">
           <MarqueeStrip images={content.gallery} />
